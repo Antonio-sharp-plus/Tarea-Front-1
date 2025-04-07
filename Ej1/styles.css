@@ -1,0 +1,33 @@
+/*
+
+A) Cambiar el color del texto de los elementos con clase “compartida” a
+mediumslateblue.
+
+B) Cambiar el tamaño de la fuente de ambos párrafos a 10px.
+
+C) Hacer que el texto del párrafo con clase “compartida” esté en negrita.
+
+D) Cambiar el color del párrafo con clase “texto” a crimson.
+
+E) Diseñar el subtítulo H2 que está dentro del DIV con un borde de 5px, solid,
+color azul y con un borde redondeado de 15px.
+
+*/
+
+.compartida {
+    color: mediumslateblue;
+    font-weight: bold;
+}
+
+.texto{
+    color: crimson;
+}
+
+.borde{
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.p{
+    font-size: 10px;
+}

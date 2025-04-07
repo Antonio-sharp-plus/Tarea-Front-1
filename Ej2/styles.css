@@ -1,0 +1,34 @@
+/*
+
+A) Añadir al div con id “fondo” un color de fondo semitransparente. Definir
+además un ancho de 300px, una altura de 200px, y un borde de 3px sólido de
+color negro.
+
+B) Fijar el ancho y el tamaño de la fuente en la caja con clase “medida-
+absoluta”, utilizando medidas absolutas.
+
+C) Definir el ancho y el tamaño de la fuente en la caja con clase “medida-
+relativa”, utilizando medidas relativas.
+
+D) Dar a cada caja un borde distinto que combine grosores, colores y estilos.
+
+*/
+
+#fondo{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.medida-absoluta{
+    width: 300px;
+    height: 200px;
+    border: 2px solid yellow;
+}
+
+.medida-relativa{
+    width: 50%;
+    height: 30%;
+    border: 2px solid blue;
+}
+
